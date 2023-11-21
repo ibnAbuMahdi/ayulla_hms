@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework',
     'rest_framework.authtoken', #Used to enable token authentication
-    'sms_drf', #New app
+    'hms_drf', #New app
 ]
 
 MIDDLEWARE = [

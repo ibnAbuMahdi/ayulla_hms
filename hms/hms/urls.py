@@ -1,4 +1,4 @@
-"""sms_drf URL Configuration
+"""hms URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.1/topics/http/urls/
@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from ..hms_drf import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('signup/', views.signup),
+    path('login/', views.u_login)
 ]
